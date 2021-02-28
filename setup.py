@@ -16,5 +16,8 @@ setup(
     license=license,
     packages=['maxcube'],
     test_suite="tests",
+    install_requires=[
+        'asyncio-dgram==1.2.0',
+    ],
     python_requires='>=3.7'
 )
